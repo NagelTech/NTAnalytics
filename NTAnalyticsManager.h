@@ -15,6 +15,9 @@
 
 -(void)configureWithManager:(NTAnalyticsManager *)manager;
 
+-(void)setUserId:(NSString *)userId;
+-(void)setLatitude:(double)latitude longitude:(double)longitude horizontalAccuracy:(float)horizontalAccuracy verticalAccuracy:(float)verticalAccuracy;
+
 @required
 
 -(void)startSession;
@@ -34,6 +37,9 @@
 -(void)addProvider:(id<NTAnalyticsProvider>)provider;
 
 -(void)startSession;
+
+-(void)setUserId:(NSString *)userId;
+-(void)setLatitude:(double)latitude longitude:(double)longitude horizontalAccuracy:(float)horizontalAccuracy verticalAccuracy:(float)verticalAccuracy;
 
 -(void)logEvent:(NTAnalyticsEvent *)event;
 -(void)logEvent:(NTAnalyticsEvent *)event params:(NSDictionary *)params;

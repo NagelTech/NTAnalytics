@@ -35,6 +35,18 @@
 }
 
 
+-(void)setUserId:(NSString *)userId
+{
+    [Flurry setUserID:userId];
+}
+
+
+-(void)setLatitude:(double)latitude longitude:(double)longitude horizontalAccuracy:(float)horizontalAccuracy verticalAccuracy:(float)verticalAccuracy
+{
+    [Flurry setLatitude:latitude longitude:longitude horizontalAccuracy:horizontalAccuracy verticalAccuracy:verticalAccuracy];
+}
+
+
 -(void)logEvent:(NTAnalyticsEvent *)event params:(NSDictionary *)params
 {
     [Flurry logEvent:event.name withParameters:params];
