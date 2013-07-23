@@ -22,25 +22,18 @@
 @implementation NTAnalyticsGoogleProvider
 
 
--(id)initWithTrackingId:(NSString *)trackingId
+-(id)initWithTrackingId:(NSString *)trackingId eventCategoryName:(NSString *)eventCategoryName
 {
     self = [super init];
     
     if ( self )
     {
         _trackingId = trackingId;
+        _eventCategoryName = eventCategoryName;
     }
     
     return self;
 }
-
-
-
-+(NTAnalyticsGoogleProvider *)googleProviderWithTrackingId:(NSString *)trackingId
-{
-    return [[NTAnalyticsGoogleProvider alloc] initWithTrackingId:trackingId];
-}
-
 
 
 -(void)startSession
@@ -65,7 +58,7 @@
 
 -(void)logEvent:(NTAnalyticsEvent *)event params:(NSDictionary *)params
 {
-    NSString *category = nil;
+    NSString *category = self.eventCategoryName;
     NSString *action = event.name;
     NSString *label = nil;
     NSNumber *value = nil;

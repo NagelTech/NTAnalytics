@@ -14,9 +14,8 @@
 @interface NTAnalyticsGoogleProvider : NSObject <NTAnalyticsProvider>
 
 @property (readonly,retain,nonatomic)   NSString *trackingId;
+@property (nonatomic)                   NSString *eventCategoryName;
 
--(id)initWithTrackingId:(NSString *)trackingId;
-
-+(NTAnalyticsGoogleProvider *)googleProviderWithTrackingId:(NSString *)trackingId;
+-(id)initWithTrackingId:(NSString *)trackingId eventCategoryName:(NSString *)eventCategoryName;
 
 @end
