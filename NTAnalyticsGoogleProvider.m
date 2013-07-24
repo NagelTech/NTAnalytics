@@ -45,8 +45,12 @@
 
 -(void)setUserId:(NSString *)userId
 {
-    // not supported
+    [_tracker setCustom:2 dimension:userId];
+}
 
+-(void)setCompanyId:(NSString *)companyId
+{
+    [_tracker setCustom:1 dimension:companyId];
 }
 
 

@@ -55,6 +55,15 @@ static NSMutableArray *sProviders = nil;
     }];
 }
 
+-(void)setCompanyId:(NSString *)companyId
+{
+    [self performOnProviders:^(id<NTAnalyticsProvider> provider)
+     {
+         if ( [provider respondsToSelector:@selector(setCompanyId:)] )
+             [provider setCompanyId:companyId];
+     }];
+}
+
 -(void)setLatitude:(double)latitude longitude:(double)longitude horizontalAccuracy:(float)horizontalAccuracy verticalAccuracy:(float)verticalAccuracy
 {
     [self performOnProviders:^(id<NTAnalyticsProvider> provider)
