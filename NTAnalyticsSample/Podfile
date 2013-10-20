@@ -6,9 +6,9 @@ target "NTAnalyticsSample" do
 pod 'FlurrySDK'
 pod 'GoogleAnalytics-iOS-SDK', '~> 2.0beta4'
 
-# we map these directly to the podspecs in the project for testing
-
-pod 'NTAnalytics', :path => '~/Projects/NagelTech/NTAnalytics/NTAnalytics.podspec'
+pod 'NTAnalytics'
+pod 'NTAnalytics-Flurry'
+pod 'NTAnalytics-Google'
 
 end
 
