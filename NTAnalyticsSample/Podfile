@@ -3,12 +3,11 @@
 
 target "NTAnalyticsSample" do
 
-pod 'FlurrySDK'
-pod 'GoogleAnalytics-iOS-SDK', '~> 2.0beta4'
+#pod 'FlurrySDK'
+#pod 'GoogleAnalytics-iOS-SDK', '~> 2.0beta4'
 
-pod 'NTAnalytics'
-pod 'NTAnalytics-Flurry'
-pod 'NTAnalytics-Google'
+pod 'NTAnalytics/Flurry', :path => '~/Projects/NagelTech/NTAnalytics'
+pod 'NTAnalytics/Google', :path => '~/Projects/NagelTech/NTAnalytics'
 
 end
 

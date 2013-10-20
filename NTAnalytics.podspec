@@ -9,4 +9,15 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/NagelTech/NTAnalytics.git", :tag => "0.14" }
   s.source_files = 'NTAnalytics.h', 'NTAnalyticsEvent.{h,m}', 'NTAnalyticsManager.{h,m}', 'NTAnalyticsTimedEvent.{h,m}'
   s.requires_arc = true
+  
+  s.subspec "Flurry" do |sp|
+    sp.source_files = 'NTAnalyticsFlurryProvider.{h.m}'
+  sp.dependency 'FlurrySDK'
+  end
+
+  s.subspec "Google" do |sp|
+    sp.source_files = 'NTAnalyticsGoogleProvider.{h.m}'
+  sp.dependency 'GoogleAnalytics-iOS-SDK', '~> 2.0beta4'
+  end
+
 end

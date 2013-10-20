@@ -20,8 +20,6 @@
 		F03077D7181467A400430A18 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F03077D1181467A400430A18 /* README.md */; };
 		F03077DA181491E300430A18 /* NTAnalytics.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F03077D9181491E300430A18 /* NTAnalytics.podspec */; };
 		F03077DC1814928300430A18 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = F03077DB1814928300430A18 /* license.txt */; };
-		F03077DE181496D800430A18 /* NTAnalytics-Flurry.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F03077DD181496D800430A18 /* NTAnalytics-Flurry.podspec */; };
-		F03077E01814985900430A18 /* NTAnalytics-Google.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F03077DF1814985900430A18 /* NTAnalytics-Google.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,8 +54,6 @@
 		F03077D1181467A400430A18 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F03077D9181491E300430A18 /* NTAnalytics.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NTAnalytics.podspec; path = ../NTAnalytics.podspec; sourceTree = "<group>"; };
 		F03077DB1814928300430A18 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = license.txt; path = ../license.txt; sourceTree = "<group>"; };
-		F03077DD181496D800430A18 /* NTAnalytics-Flurry.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NTAnalytics-Flurry.podspec"; path = "../NTAnalytics-Flurry.podspec"; sourceTree = "<group>"; };
-		F03077DF1814985900430A18 /* NTAnalytics-Google.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "NTAnalytics-Google.podspec"; path = "../NTAnalytics-Google.podspec"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,8 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				F03077DB1814928300430A18 /* license.txt */,
-				F03077DD181496D800430A18 /* NTAnalytics-Flurry.podspec */,
-				F03077DF1814985900430A18 /* NTAnalytics-Google.podspec */,
 				F03077C6181467A400430A18 /* NTAnalytics.h */,
 				F03077D9181491E300430A18 /* NTAnalytics.podspec */,
 				F03077C7181467A400430A18 /* NTAnalyticsEvent.h */,
@@ -210,11 +204,9 @@
 			files = (
 				F03077DC1814928300430A18 /* license.txt in Resources */,
 				F03077A91814661C00430A18 /* Images.xcassets in Resources */,
-				F03077E01814985900430A18 /* NTAnalytics-Google.podspec in Resources */,
 				F030779B1814661C00430A18 /* InfoPlist.strings in Resources */,
 				F03077D7181467A400430A18 /* README.md in Resources */,
 				F03077A41814661C00430A18 /* Main.storyboard in Resources */,
-				F03077DE181496D800430A18 /* NTAnalytics-Flurry.podspec in Resources */,
 				F03077DA181491E300430A18 /* NTAnalytics.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
