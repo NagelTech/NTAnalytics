@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "NTAnalyticsSample" do
+
+pod 'FlurrySDK'
+pod 'GoogleAnalytics-iOS-SDK', '~> 2.0beta4'
+
+pod 'NTAnalytics'
+pod 'NTAnalytics-Flurry'
+pod 'NTAnalytics-Google'
+
+end
+
