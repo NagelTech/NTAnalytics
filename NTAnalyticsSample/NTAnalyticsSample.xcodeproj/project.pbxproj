@@ -20,6 +20,8 @@
 		F03077D7181467A400430A18 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F03077D1181467A400430A18 /* README.md */; };
 		F03077DA181491E300430A18 /* NTAnalytics.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F03077D9181491E300430A18 /* NTAnalytics.podspec */; };
 		F03077DC1814928300430A18 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = F03077DB1814928300430A18 /* license.txt */; };
+		F03077F31814B5B300430A18 /* NTAnalyticsFlurryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F03077F21814B5B300430A18 /* NTAnalyticsFlurryProvider.m */; };
+		F03077F61814B5BF00430A18 /* NTAnalyticsGoogleProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F03077F51814B5BF00430A18 /* NTAnalyticsGoogleProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,20 +42,20 @@
 		F03077A61814661C00430A18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F03077A81814661C00430A18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F03077AF1814661C00430A18 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		F03077C6181467A400430A18 /* NTAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAnalytics.h; path = ../NTAnalytics.h; sourceTree = "<group>"; };
-		F03077C7181467A400430A18 /* NTAnalyticsEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAnalyticsEvent.h; path = ../NTAnalyticsEvent.h; sourceTree = "<group>"; };
-		F03077C8181467A400430A18 /* NTAnalyticsEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAnalyticsEvent.m; path = ../NTAnalyticsEvent.m; sourceTree = "<group>"; };
-		F03077C9181467A400430A18 /* NTAnalyticsFlurryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAnalyticsFlurryProvider.h; path = ../NTAnalyticsFlurryProvider.h; sourceTree = "<group>"; };
-		F03077CA181467A400430A18 /* NTAnalyticsFlurryProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAnalyticsFlurryProvider.m; path = ../NTAnalyticsFlurryProvider.m; sourceTree = "<group>"; };
-		F03077CB181467A400430A18 /* NTAnalyticsGoogleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAnalyticsGoogleProvider.h; path = ../NTAnalyticsGoogleProvider.h; sourceTree = "<group>"; };
-		F03077CC181467A400430A18 /* NTAnalyticsGoogleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAnalyticsGoogleProvider.m; path = ../NTAnalyticsGoogleProvider.m; sourceTree = "<group>"; };
-		F03077CD181467A400430A18 /* NTAnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAnalyticsManager.h; path = ../NTAnalyticsManager.h; sourceTree = "<group>"; };
-		F03077CE181467A400430A18 /* NTAnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAnalyticsManager.m; path = ../NTAnalyticsManager.m; sourceTree = "<group>"; };
-		F03077CF181467A400430A18 /* NTAnalyticsTimedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NTAnalyticsTimedEvent.h; path = ../NTAnalyticsTimedEvent.h; sourceTree = "<group>"; };
-		F03077D0181467A400430A18 /* NTAnalyticsTimedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NTAnalyticsTimedEvent.m; path = ../NTAnalyticsTimedEvent.m; sourceTree = "<group>"; };
 		F03077D1181467A400430A18 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F03077D9181491E300430A18 /* NTAnalytics.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NTAnalytics.podspec; path = ../NTAnalytics.podspec; sourceTree = "<group>"; };
 		F03077DB1814928300430A18 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = license.txt; path = ../license.txt; sourceTree = "<group>"; };
+		F03077E51814B3E600430A18 /* NTAnalyticsTimedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAnalyticsTimedEvent.m; sourceTree = "<group>"; };
+		F03077E61814B3E600430A18 /* NTAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAnalytics.h; sourceTree = "<group>"; };
+		F03077E71814B3E600430A18 /* NTAnalyticsEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAnalyticsEvent.h; sourceTree = "<group>"; };
+		F03077E81814B3E600430A18 /* NTAnalyticsEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAnalyticsEvent.m; sourceTree = "<group>"; };
+		F03077E91814B3E600430A18 /* NTAnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAnalyticsManager.h; sourceTree = "<group>"; };
+		F03077EA1814B3E600430A18 /* NTAnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAnalyticsManager.m; sourceTree = "<group>"; };
+		F03077EB1814B3E600430A18 /* NTAnalyticsTimedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAnalyticsTimedEvent.h; sourceTree = "<group>"; };
+		F03077F11814B5B300430A18 /* NTAnalyticsFlurryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAnalyticsFlurryProvider.h; sourceTree = "<group>"; };
+		F03077F21814B5B300430A18 /* NTAnalyticsFlurryProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAnalyticsFlurryProvider.m; sourceTree = "<group>"; };
+		F03077F41814B5BF00430A18 /* NTAnalyticsGoogleProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTAnalyticsGoogleProvider.h; sourceTree = "<group>"; };
+		F03077F51814B5BF00430A18 /* NTAnalyticsGoogleProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTAnalyticsGoogleProvider.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,22 +132,49 @@
 		F03077C51814678000430A18 /* NTAnalytics */ = {
 			isa = PBXGroup;
 			children = (
+				F03077F01814B54000430A18 /* Flurry */,
+				F03077EF1814B52F00430A18 /* Google */,
+				F03077E41814B39600430A18 /* Core */,
 				F03077DB1814928300430A18 /* license.txt */,
-				F03077C6181467A400430A18 /* NTAnalytics.h */,
 				F03077D9181491E300430A18 /* NTAnalytics.podspec */,
-				F03077C7181467A400430A18 /* NTAnalyticsEvent.h */,
-				F03077C8181467A400430A18 /* NTAnalyticsEvent.m */,
-				F03077C9181467A400430A18 /* NTAnalyticsFlurryProvider.h */,
-				F03077CA181467A400430A18 /* NTAnalyticsFlurryProvider.m */,
-				F03077CB181467A400430A18 /* NTAnalyticsGoogleProvider.h */,
-				F03077CC181467A400430A18 /* NTAnalyticsGoogleProvider.m */,
-				F03077CD181467A400430A18 /* NTAnalyticsManager.h */,
-				F03077CE181467A400430A18 /* NTAnalyticsManager.m */,
-				F03077CF181467A400430A18 /* NTAnalyticsTimedEvent.h */,
-				F03077D0181467A400430A18 /* NTAnalyticsTimedEvent.m */,
 				F03077D1181467A400430A18 /* README.md */,
 			);
 			name = NTAnalytics;
+			sourceTree = "<group>";
+		};
+		F03077E41814B39600430A18 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F03077E61814B3E600430A18 /* NTAnalytics.h */,
+				F03077E71814B3E600430A18 /* NTAnalyticsEvent.h */,
+				F03077E81814B3E600430A18 /* NTAnalyticsEvent.m */,
+				F03077E91814B3E600430A18 /* NTAnalyticsManager.h */,
+				F03077EA1814B3E600430A18 /* NTAnalyticsManager.m */,
+				F03077EB1814B3E600430A18 /* NTAnalyticsTimedEvent.h */,
+				F03077E51814B3E600430A18 /* NTAnalyticsTimedEvent.m */,
+			);
+			name = Core;
+			path = ../Core;
+			sourceTree = "<group>";
+		};
+		F03077EF1814B52F00430A18 /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				F03077F41814B5BF00430A18 /* NTAnalyticsGoogleProvider.h */,
+				F03077F51814B5BF00430A18 /* NTAnalyticsGoogleProvider.m */,
+			);
+			name = Google;
+			path = ../Google;
+			sourceTree = "<group>";
+		};
+		F03077F01814B54000430A18 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				F03077F11814B5B300430A18 /* NTAnalyticsFlurryProvider.h */,
+				F03077F21814B5B300430A18 /* NTAnalyticsFlurryProvider.m */,
+			);
+			name = Flurry;
+			path = ../Flurry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,7 +282,9 @@
 			files = (
 				F03077A71814661C00430A18 /* ViewController.m in Sources */,
 				F03077A11814661C00430A18 /* AppDelegate.m in Sources */,
+				F03077F61814B5BF00430A18 /* NTAnalyticsGoogleProvider.m in Sources */,
 				F030779D1814661C00430A18 /* main.m in Sources */,
+				F03077F31814B5B300430A18 /* NTAnalyticsFlurryProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
