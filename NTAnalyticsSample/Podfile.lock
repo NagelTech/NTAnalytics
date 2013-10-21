@@ -1,10 +1,13 @@
 PODS:
   - FlurrySDK (4.2.4)
   - GoogleAnalytics-iOS-SDK (2.0beta4)
-  - NTAnalytics/Flurry (0.14):
+  - NTAnalytics/Core (0.15)
+  - NTAnalytics/Flurry (0.15):
     - FlurrySDK
-  - NTAnalytics/Google (0.14):
+    - NTAnalytics/Core
+  - NTAnalytics/Google (0.15):
     - GoogleAnalytics-iOS-SDK (~> 2.0beta4)
+    - NTAnalytics/Core
 
 DEPENDENCIES:
   - NTAnalytics/Flurry (from `~/Projects/NagelTech/NTAnalytics`)
@@ -17,6 +20,6 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   FlurrySDK: 2c1e7070d0d76dd597de7b0d09cbbdd4193f1622
   GoogleAnalytics-iOS-SDK: acf0f1ac4dcac408d17e7766454918b7e9e2b03a
-  NTAnalytics: ce4289d530bf6b11a8a2d650c4849dd7c673929c
+  NTAnalytics: ec327aec57ce72f045ec363acebd19ad3a4e9913
 
 COCOAPODS: 0.26.2
