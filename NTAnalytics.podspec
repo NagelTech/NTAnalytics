@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name         = "NTAnalytics"
-  s.version      = "0.15"
+  s.version      = "0.50"
   s.summary      = "NTAnalytics - A Provider-based system to integrate Analytics systems such at Flurry or Google Analytics"
   s.homepage     = "https://github.com/NagelTech/NTAnalytics"
   s.license      = { :type => 'MIT', :file => 'license.txt' }
   s.author       = { "Ethan Nagel" => "eanagel@gmail.com" }
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://github.com/NagelTech/NTAnalytics.git", :tag => "0.15" }
+  s.source       = { :git => "https://github.com/NagelTech/NTAnalytics.git", :tag => "0.50" }
   s.requires_arc = true
 
   s.subspec "Core" do |sp|
